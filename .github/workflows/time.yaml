@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '* * * * *'
 
+permissions:
+  contents: write
+
 jobs:
   time:
     name: Update files to current time
