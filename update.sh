@@ -11,4 +11,5 @@ echo "$DATETIME" > DATETIME
 git add .
 git commit -m "Update to $DATETIME"
 git push
+git push --tags
 
